@@ -1,26 +1,36 @@
-# 🤖 FLAN-T5 RAG Chatbot
+# 🤖 AI Notes Chatbot
 
-This is a **Retrieval-Augmented Generation (RAG) chatbot** built using:
-
-- **FLAN-T5 Base** (Text generation)
-- **Sentence-Transformers** (embeddings)
-- **FAISS** (vector search)
-- **Gradio** UI
-
-The bot reads your uploaded course notes/documents and answers questions based on them.
+A simple, offline, intelligent chatbot that answers questions based on uploaded course notes using **FAISS**, **SentenceTransformers**, and **FLAN-T5**.
 
 ---
 
-## 🚀 Features
-
-- ✅ Uses **RAG** for relevant & accurate answers  
-- ✅ Upload notes / PDFs / DOCX & ask questions  
-- ✅ Fast semantic search using FAISS  
-- ✅ Lightweight FLAN-T5 works on CPU/GPU  
-- ✅ Simple Gradio based interface  
+## 🧠 Features
+- Upload `.pdf`, `.docx`, or `.txt` files
+- Extracts and preprocesses text automatically
+- Builds vector embeddings using **SentenceTransformer (MiniLM)**
+- Uses **FAISS** for similarity-based retrieval
+- Generates answers using **FLAN-T5-base**
+- Clean **Gradio-based** chat interface (no API key required)
 
 ---
 
-## 🧠 Workflow
+## 🧩 Tech Stack
+- **Python 3.10+**
+- **SentenceTransformers**
+- **FAISS**
+- **Transformers (FLAN-T5)**
+- **Gradio**
+- **PyMuPDF**
+- **python-docx**
 
-User Query → Embeddings → FAISS Search → Context → FLAN-T5 → Answer
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone or Copy the Project
+If using Google Colab, skip cloning — just copy all cells directly.
+
+If using locally:
+```bash
+git clone https://github.com/yourusername/ai-notes-chatbot.git
+cd ai-notes-chatbot
