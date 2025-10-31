@@ -1,6 +1,6 @@
 # 🤖 AI Notes Chatbot
 
-A simple, offline, intelligent chatbot that answers questions based on uploaded course notes using **FAISS**, **SentenceTransformers**, and **FLAN-T5**.
+A simple intelligent chatbot that answers questions based on uploaded course notes using **FAISS**, **SentenceTransformers**, and **FLAN-T5**.
 
 ---
 
@@ -10,7 +10,7 @@ A simple, offline, intelligent chatbot that answers questions based on uploaded 
 - Builds vector embeddings using **SentenceTransformer (MiniLM)**
 - Uses **FAISS** for similarity-based retrieval
 - Generates answers using **FLAN-T5-base**
-- Clean **Gradio-based** chat interface (no API key required)
+- Clean **Gradio-based** chat interface 
 
 ---
 
@@ -25,12 +25,9 @@ A simple, offline, intelligent chatbot that answers questions based on uploaded 
 
 ---
 
-## ⚙️ Setup Instructions
+### 🚀 Live Demo
 
-### 1️⃣ Clone or Copy the Project
-If using Google Colab, skip cloning — just copy all cells directly.
+🔗 **Try the Chatbot here:**  
+👉 https://huggingface.co/spaces/Sornambal/AI_CHATBOT
 
-If using locally:
-```bash
-git clone https://github.com/yourusername/ai-notes-chatbot.git
-cd ai-notes-chatbot
+---
